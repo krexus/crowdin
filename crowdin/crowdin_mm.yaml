@@ -16,6 +16,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
+base_path_env: ~/android/krexus/mm
 project_identifier: krexus
 preserve_hierarchy: true
 
@@ -90,7 +91,7 @@ files:
         zu: zu
 
   -
-    source:      '/packages/apps/KrexusOTA/res/values/strings.xml'
+    source:      '/packages/apps/KrexusOTA/app/src/main/res/values/strings.xml'
     translation: '/%original_path%-%android_code%/%original_file_name%'
     languages_mapping: *anchor
 
